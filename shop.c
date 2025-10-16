@@ -17,6 +17,6 @@ int main() {
 
   total = price * quantity;
 
-  printf("your total to pay is %.2f", total);
+  printf("your total to pay is %c%.2f", currency,total);
   return 0;
 }
